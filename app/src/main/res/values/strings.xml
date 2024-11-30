@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ElectroBill</string>
+    <string name="electricity_output">Electricity consumption: %s kWh</string>
+    <string name="total_bill_output">Total Bill: RM %s</string>
+    <string name="total_rebate_output">Rebate Applied: RM %s</string>
+    <string name="final_cost_output">Final Cost After Rebate: \nRM %s</string>
+</resources>

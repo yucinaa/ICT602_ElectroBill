@@ -1,0 +1,9 @@
+<resources>
+    <color name="primary_background">#d5ad</color>
+    <color name="accent_color">#265999</color>
+    <color name="button_color">#FF1200</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="header_background">#265999</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

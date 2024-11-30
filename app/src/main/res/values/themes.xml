@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.ElectroBill" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">#265999</item>
+        <item name="colorPrimaryVariant">#4488bf</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">#265999</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="popupMenuStyle">@style/CustomPopupMenuStyle</item>
+        <item name="actionMenuTextColor">#FFFFFF</item> <!-- Action menu text in white -->
+    </style>
+
+    <!-- Toolbar and Action Bar Styling -->
+    <style name="toolbarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <!-- Application Theme -->
+    <style name="Theme.ElectroBill" parent="Base.Theme.ElectroBill" />
+
+    <!-- Toolbar Customization -->
+    <style name="CustomToolbarStyle" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">#FFFFFF</item> <!-- Toolbar title in white -->
+        <item name="subtitleTextColor">#FFFFFF</item>
+        <item name="backgroundTint">#265999</item> <!-- Toolbar background -->
+        <item name="colorControlNormal">#FFFFFF</item> <!-- Menu button/icon color -->
+        <item name="android:tint">#FFFFFF</item> <!-- Tint for drawable icons -->
+        <item name="toolbarStyle">@style/CustomToolbarStyle</item>
+        <item name="popupMenuStyle">@style/CustomPopupMenuStyle</item>
+    </style>
+
+
+    <!-- Popup Menu Style -->
+    <style name="CustomPopupMenuStyle" parent="ThemeOverlay.Material3.Light">
+        <item name="android:popupBackground">#F5F5F5</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+</resources>
